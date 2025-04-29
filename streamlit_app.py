@@ -11,6 +11,8 @@ st.set_page_config(
     initial_sidebar_state="auto",      # 'expanded' or 'collapsed'
 )
 
+# Display the logo
+st.image("gvp_logo.JPG", width=200)  # Adjust width as necessary
 # -----------------------------------------------------------------------------
 # Useful functions
 
