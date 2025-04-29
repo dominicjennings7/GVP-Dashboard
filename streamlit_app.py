@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # Display the logo
-st.image("gvp_logo.JPG", width=600)  # Adjust width as necessary
+st.image("gvp_logo.JPG", width=700)  # Adjust width as necessary
 # -----------------------------------------------------------------------------
 # Useful functions
 
