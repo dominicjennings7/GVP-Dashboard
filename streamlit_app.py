@@ -2,10 +2,13 @@ import streamlit as st
 import pandas as pd
 
 # -----------------------------------------------------------------------------
-# Set page config
+import streamlit as st
+
 st.set_page_config(
-    page_title='GVP Dashboard',
-    page_icon=':bar_chart:',
+    page_title="GVP Dashboard",       # This shows in browser tab + link preview
+    page_icon=":bar_chart:",           # Emoji or URL to an image
+    layout="centered",                 # or 'wide'
+    initial_sidebar_state="auto",      # 'expanded' or 'collapsed'
 )
 
 # -----------------------------------------------------------------------------
