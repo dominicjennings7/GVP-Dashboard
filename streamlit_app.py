@@ -13,6 +13,25 @@ st.set_page_config(
 
 # Display the logo
 st.image("gvp_logo.JPG", width=700)  # Adjust width as necessary
+
+import streamlit as st
+
+st.set_page_config(
+    page_title="GVP Dashboard",
+    page_icon=":bar_chart:"
+)
+
+# Clickable logo (opens in new tab)
+st.markdown(
+    """
+    <a href="https://www.yourcompany.com" target="_blank">
+        <img src="gvp_logo.JPG" width="700"/>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
+
+st.title("GVP Dashboard")
 # -----------------------------------------------------------------------------
 # Useful functions
 
