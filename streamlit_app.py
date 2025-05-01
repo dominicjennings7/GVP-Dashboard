@@ -24,7 +24,7 @@ st.set_page_config(
 # Clickable logo (opens in new tab)
 st.markdown(
     """
-    <a href="https://www.geerationalvp.com" target="_blank">
+    <a href="https://www.generationalvp.com" target="_blank">
         <img src="gvp_logo.JPG" width="700"/>
     </a>
     """,
